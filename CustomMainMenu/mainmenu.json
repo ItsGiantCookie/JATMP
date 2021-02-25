@@ -1,0 +1,147 @@
+{
+    "images":
+    {
+        "bbg":
+        {
+            "image" : "textures:bbg.png",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 256,
+            "height" : 512,
+            "alignment" : "left"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "Play Solo",
+            "tooltip" : "A solo adventure is always nice",
+            "posX" : 28,
+            "posY" : 50,
+            "width" : 200,
+            "height" : 32,
+            "texture" : "textures:button.png",
+            "alignment" : "left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "Play with Friends!",
+            "tooltip" : "Overload some poor hosters sever with your Buddies!",
+            "posX" : 28,
+            "posY" : 87,
+            "width" : 200,
+            "height" : 32,
+            "texture" : "textures:button.png",
+            "alignment" : "left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Confusing stuff [Mods]",
+            "tooltip" : "Nothing really interesting in here",
+            "posX" : 28,
+            "posY" : 161,
+            "width" : 200,
+            "height" : 32,
+            "texture" : "textures:button.png",
+            "alignment" : "left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "Here are some Options!",
+            "tooltip" : "Fiddle around and fit the game to your needs",
+            "posX" : 28,
+            "posY" : 124,
+            "width" : 200,
+            "height" : 32,
+            "texture" : "textures:button.png",
+            "alignment" : "left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "Goodbye!",
+            "tooltip" : "See you around!",
+            "posX" : 28,
+            "posY" : 235,
+            "width" : 200,
+            "height" : 32,
+            "texture" : "textures:button.png",
+            "alignment" : "left",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "Languages",
+            "tooltip" : "Pirate-speak is the best!",
+            "posX" : 28,
+            "posY" : 198,
+            "width" : 200,
+            "height" : 32,
+            "texture" : "textures:button.png",
+            "alignment" : "left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "This menu was designed by ItsGiantCookie :)",
+            "posX" : -220,
+            "posY" : -12,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        }
+    },
+    
+    "other":
+    {   
+        "panorama":
+        {
+            "images" : "panorama:panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : false,
+            "gradient" : true
+        }
+    }
+}
